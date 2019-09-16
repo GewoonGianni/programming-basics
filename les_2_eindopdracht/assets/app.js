@@ -19,4 +19,4 @@ var message2 = 'Ik woon in Naboo';
 
 console.log(number2 < message2);
 
-// ik vergelijk hier een getal met een zin, het zal altijd false zijn en er is geen reden om deze twee te vergelijken.
+// I compare a sentence to a number, it will always be false and there is no reason to ever do this.
