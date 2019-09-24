@@ -1,5 +1,6 @@
 // 1
 function fibonacci (numberLimit) {
+    if (numberLimit > 0) {
     let b = 0;
     let c = 1;
     while (b < numberLimit) { 
@@ -7,6 +8,9 @@ function fibonacci (numberLimit) {
         console.log(c); 
         b = b + c; 
         console.log(b)
+    }
+    } else {
+        console.log('met '+ numberLimit + ' verschijnen geen getallen.')
     }
 }
 
