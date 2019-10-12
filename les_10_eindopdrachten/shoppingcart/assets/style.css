@@ -1,0 +1,84 @@
+/* setting page visuals */
+body {
+    background-color: #ffc074;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+#totaldiv {
+    text-align: center;
+    padding-bottom: 0.01%;
+    padding-top: 0.01%;
+    max-width: 450px;
+}
+
+/* setting box visuals */
+#mainPage {
+    background-color: #eeeeee;
+    color: #181818;
+    text-align: center;
+    padding-bottom: 0.01%;
+    padding-top: 0.01%;
+    max-width: 450px;
+}
+
+/* making title bigger */
+#title {
+    font-size: 2rem;
+}
+
+#submit {
+    background-color: #ffc074;
+    color: #eeeeee;
+    border-radius: 8px;
+    border: 1px solid #ffc074;
+}
+
+/* making sure alert text is colored and set correctly */
+#alertText {
+    color: red;
+    font-size: 0.8rem;
+    display: flex;
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+/* setting the total to align to the list */
+#totalDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* making the divivding line */
+#lineDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#line {
+    border: 1px #181818 solid;
+}
+
+#remove {
+    color: red;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+} 
+
+#list {
+    list-style: none;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: 40% 40% 20%; ;
+    /* justify-content: space-between;
+    align-items: center; */
+}

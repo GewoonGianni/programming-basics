@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    color: #eeeeee;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+#clicker {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: auto;
+}
+
+#mainOfPage {
+    padding: 5%;
+}
+
+#pool {
+    width: 100%;
+}
